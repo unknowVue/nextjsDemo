@@ -20,7 +20,7 @@ export default function DashboardLayout({
         <div className='flex gap-4 font-bold text-lg mb-4'>
             {
                 linkData.map(link => (
-                    <Link className={ pathname === link.path ? 'text-purple-500' : '' } href={link.path}>{link.name}</Link>
+                    <Link className={ pathname === link.path ? 'text-purple-500' : '' } href={link.path} key={link.path}>{link.name}</Link>
                 ))
             }
         </div>

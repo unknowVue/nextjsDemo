@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Comforter } from "next/font/google";
 import "./globals.css";
-import Link from "next/link";
 
 const comforter = Comforter({ subsets: ['latin'], weight: '400' })
 
